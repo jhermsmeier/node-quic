@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var QUIC = require( '..' )
+var package = require( '../package' )
+
+var server = QUIC.createServer()
+
+server.listen( port, host, function() {
+  console.log( 'QUIC server listening', server.address() )
+})

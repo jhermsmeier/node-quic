@@ -1,0 +1,35 @@
+{
+  "name": "quic",
+  "version": "0.0.0",
+  "description": "Implementation of the QUIC protocol",
+  "license": "MIT",
+  "keywords": [
+    "quic",
+    "spdy",
+    "http2",
+    "hpack",
+    "udp",
+    "tls"
+  ],
+  "main": "lib/quic",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-quic",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-quic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-quic/issues"
+  },
+  "bin": {
+    "quic-server": "bin/quic-server"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

@@ -26,9 +26,6 @@
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-quic/issues"
   },
-  "bin": {
-    "quic-server": "bin/quic-server"
-  },
   "directories": {
     "test": "test"
   }

@@ -14,9 +14,13 @@
   "main": "lib/quic",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "matcha": "~0.6.1",
+    "mocha": "~2.3.4"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "benchmark": "matcha"
   },
   "homepage": "https://github.com/jhermsmeier/node-quic",
   "repository": {
